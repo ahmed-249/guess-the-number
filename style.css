@@ -1,0 +1,106 @@
+/* Reset some basic styling  */
+body , html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main container styling */
+body {
+    background: linear-gradient(135deg,#fc5e63,#ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #f2f2f2;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0,0.1);
+    text-align: center;
+    width: 70%;
+    max-width: 400px;
+}
+
+/* heading styling */
+h1 {
+    color: #ff6f61;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* instructions styling */
+.instructions {
+    color: #555555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.range {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+/* input field styling */
+.Guess-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    outline: none;
+}
+.Guess-input:focus {
+    border-color:#ed2a2a ;
+}
+/* button styling  */
+.submit-btn {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius:6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submit-btn:hover {
+    background: #ff3e3e;
+}
+.play-again-btn {
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.play-again-btn:hover {
+    background: #45a049;
+}
+/* announcement styling  */
+.announce {
+    margin: 10px 0;
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 20px;
+    transition: background-color 0.3s ease;
+}
+/* stats section styling  */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 16px;
+    color: 20px;
+}
+.stats span {
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+
